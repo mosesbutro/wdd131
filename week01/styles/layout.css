@@ -30,6 +30,11 @@ body {
     font-style: italic;
   }
 
+  header h1{
+    color: aqua;
+    text-align: center;
+  }
+
   nav {
 	margin: 0;
   list-style: none;
@@ -38,7 +43,7 @@ body {
   overflow: hidden;
 	align-items: center;
   grid-column: 1 / -1;
-  height: 100px;
+  height: 80px;
 }
 
 nav a {
