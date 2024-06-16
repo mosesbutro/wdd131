@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131: Dynamic Web Fundamentals</title>
+    <meta name="description" content="WDD 131 - Dynamic Web Fundamentals | Moses Butro Jeremiah - Home Page">
+    <meta name="Author" content="Moses Butro Jeremiah">
+    <title>WDD131: Dynamic Web Fundamentals - Moses Butro Jeremiah| Home</title>
+    <link rel="stylesheet" type="text/css" href="styles/base.css"/>
+    <script src="scripts/getdates.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-    <h1>MBJ Web Designs</h1>
+    <div class = "container">
+        <header>
+            <h1>WDD131: Dynamic Web Fundamentals - Moses Butro</h1>
+            <nav>
+                <a href="https://www.linkedin.com/in/moses-butro-46682476/" target="_blank">LinkedIn</a>
+                <a href="https://byui.instructure.com/." target="_blank">I-Learn</a>
+                <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/2?lang=eng" target="_blank">Scripture</a>
+                <a href="#">Final Project</a>
+            </nav>
+        </header>
+        <main>
+            <section class = "card">
+                <h2>About Me</h2>
+                <img src="images/mypicture.jpg" alt="a picture of Moses in a light blue sweat shirt" class="selfie">
+                <p>My name is Moses and I am fondly called Mozengi. I was born in the bustling city of Lagos, Nigeria and presently, live in the capital city Abuja with my amazing family. 
+                    Currently, I am heavy on volunteering in the area of youth education and development. I enjoy reading and giving motivational talks to youths.</p>
+                <div class = "country">
+                    <h3>Abuja, Nigeria</h3>
+                    <figure class = "flag">
+                        <img src="images/nigeriaflag.png" alt="The Nigerian Flag" class="flagimg">
+                        <figcaption class="flagcap">Official Flag of Nigeria</figcaption>
+                    </figure>
+                    <p>Abuja is a planned city that became the capital of Nigeria in 1991. It's located in the center of the country. The city has a population of over 3 million people and is known for its modern architecture, wide boulevards, and green spaces.</p>
+                </div>
+            </section>
+            <section class = "card">
+                <h2>Web Dev Resources</h2>
+                <ul>
+                    <li>
+                        <a href="https://coolors.co/dff8eb-c4d6b0-56494e-ffc2b4-511c29">Color Pallet Creator</a>
+                    </li>
+                    <li>
+                        <a href="https://www.w3schools.com/html/html_lists.asp">W3Schools</a>
+                    </li>
+                    <li>
+                        <a href="https://css-tricks.com">CSS Tricks</a>
+                    </li>
+                    <li>
+                        <a href="https://www.theodinproject.com/paths/foundations/courses/foundations">The Odin Project Courses</a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <p>
+                © 
+                <span id="currentyear">2024</span>
+                || Moses Butro || Nigeria
+                <p id="lastModified">Last Modified: 06/13/2024 16:14:59</p>
+            </p>
+        </footer>
+    </div>
+
 </body>
 </html>
