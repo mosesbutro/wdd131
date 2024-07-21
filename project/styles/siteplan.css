@@ -1,0 +1,135 @@
+/* Reset CSS */
+:root {
+    --primary-color: #6C6F7D;
+    --secondary-color: #2E3138;
+    --accent1-color: #0FFF95;
+    --accent2-color:  #CCC9E7;
+}  
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--accent1-color);
+    color: black;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: var(--secondary-color);
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+    color: #fff;
+    text-align: center;
+    padding: 2em 0;
+}
+
+/* Main Content Styling */
+main {
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 0 1em;
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    border-bottom: 2px solid #6C6F7D;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    font-family: Orbitron, Arial, Helvetica, sans-serif;
+}
+
+.content-block {
+    background: white;
+    padding: 1em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 1em;
+}
+
+li {
+    margin-bottom: 0.5em;
+}
+
+li::before {
+    content: '•';
+    color: var(--secondary-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Wireframes */
+.wireframes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.wireframe {
+    margin: 1em 0;
+}
+
+.wireframe img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer Styling */
+footer {
+    background-color: var(--secondary-color);
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+  
+  .primary {
+    background-color: var(--primary-color);
+    color: white;
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+  
